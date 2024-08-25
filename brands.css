@@ -38,8 +38,8 @@
 
 .button {
   position: relative;
-  background-color: whitesmoke;
-  color: var(--bgColor);
+  background-color: transparent;
+  color: rgb(246, 33, 136);
   border: solid var(--accentColor) 2px;
   border-radius: 10px;
   font-size: 1rem;
@@ -57,7 +57,8 @@
 @media (hover: hover) {
   .button:hover {
     filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.111));
-    color: black;
+     background-color: white;
+     color: rgb(246, 33, 136);
   }
 }
 
@@ -70,9 +71,9 @@
   vertical-align: middle;
   width: 20px;
   height: 20px;
-  -webkit-filter: brightness(0%);
-  -moz-filter: brightness(0%);
-  filter: brightness(0%);
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  filter: brightness(100%);
 }
 
 .button:hover .icon {
